@@ -16,7 +16,7 @@ root.render(
         <ConnectWallet>
           <Routes>
             <Route path="/" element={<LandingPage />} />
-            <Route path="/staking" element={<Staking />} />
+            <Route path="/claim" element={<Staking />} />
           </Routes>
         </ConnectWallet>
       </Router>

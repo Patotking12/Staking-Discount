@@ -5,7 +5,7 @@ function ClaimBtn(props) {
     const navigate = useNavigate();
 
     function handleClick() {
-        navigate('/staking');
+        navigate('/claim');
     }
 
     return (
